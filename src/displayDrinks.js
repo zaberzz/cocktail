@@ -20,6 +20,7 @@ const displayDrinks = ({ drinks }) => {
     .join("");
   title.textContent = "";
   section.innerHTML = newDrinks;
+  return section;
 };
 
 export default displayDrinks;
